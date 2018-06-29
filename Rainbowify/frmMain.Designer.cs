@@ -24,6 +24,7 @@
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.btnRainbowify = new System.Windows.Forms.Button();
             this.tmrRainbow = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
@@ -48,6 +49,7 @@
             this.ClientSize = new System.Drawing.Size(214, 111);
             this.Controls.Add(this.btnRainbowify);
             this.Font = new System.Drawing.Font("Segoe UI Light", 10F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmMain";
